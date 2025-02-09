@@ -1,0 +1,139 @@
+/* Theme variables */
+:root {
+    --header-bg-light: #007bff;
+    --header-bg-dark: #444;
+    --footer-bg-light: #007bff;
+    --footer-bg-dark: #444;
+    --container-bg-light: #f9f9f9;
+    --container-bg-dark: #333;
+    --text-color-light: #000;
+    --text-color-dark: #fff;
+  }
+  
+  /* Container styles */
+  .container {
+    min-height: 100vh;
+    background-color: var(--container-bg-light);
+    color: var(--text-color-light);
+  }
+  
+  [data-theme="dark"] .container {
+    background-color: var(--container-bg-dark);
+    color: var(--text-color-dark);
+  }
+  
+  /* Header */
+  .header {
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: var(--header-bg-light);
+  }
+  
+  [data-theme="dark"] .header {
+    background-color: var(--header-bg-dark);
+  }
+  
+  /* Controls */
+  .controls {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Button */
+  .button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Main content */
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Stats section */
+  .stats-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 2rem;
+  }
+  
+  /* Stat card */
+  .stat-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 250px;
+    text-align: center;
+  }
+  
+  /* Select dropdown */
+  .select {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Info section */
+  .info-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+  }
+  
+  /* Charts section */
+  .charts-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 2rem;
+  }
+  
+  /* Chart container */
+  .chart-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 500px;
+    position: relative;
+  }
+  
+  /* Footer */
+  .footer {
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20px;
+    background-color: var(--footer-bg-light);
+  }
+  
+  [data-theme="dark"] .footer {
+    background-color: var(--footer-bg-dark);
+  }
+  
+  /* Footer link */
+  .footer-link {
+    color: #fff;
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,78 @@
+/* === Global Reset === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* === Global Body Styling === */
+html, body {
+    height: 100%;  /* Set full height for body */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* === Global Links === */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* === Header Styles === */
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* === Global Button Styling === */
+button {
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* === Utility Classes === */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* === Global Loader and Error Styling === */
+.loaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+
+/* === Footer Styling === */
+footer {
+    margin-top: auto;  /* Push footer to the bottom if content is short */
+}

@@ -1,0 +1,74 @@
+/*styles/global.css*/
+
+:root {
+  --primary-color: #527398;
+  --navbar-color: #2C3E50;
+  --hover-color: #415d7a;
+  --background-color: #f4f6f8;
+  --text-color: #2C3E50;
+  --light-gray: #e5e7eb;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color);
+}
+
+/* Button Styles */
+button, .btn {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: var(--hover-color);
+}
+
+/* Dropdown Styles */
+select {
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 0.5rem;
+  background-color: #ffffff;
+  color: var(--text-color);
+  transition: border-color 0.3s ease;
+}
+
+select:focus {
+  border-color: var(--hover-color);
+  outline: none;
+}
+
+/* Chart Container Styling */
+.chart-container {
+  background-color: #ffffff;
+  border: 2px solid var(--primary-color);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+/* Tooltip Customization */
+.recharts-tooltip-wrapper {
+  border-radius: 8px;
+  background-color: #f9fafb;
+  border: 1px solid var(--primary-color);
+}
+
+/* Legend Customization */
+.recharts-legend-item-text {
+  color: var(--text-color);
+}

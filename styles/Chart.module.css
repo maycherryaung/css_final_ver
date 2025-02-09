@@ -1,0 +1,9 @@
+/*styles/Chart.module.css*/
+
+.container {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 15px;
+    background-color: var(--background-color);
+  }
+  

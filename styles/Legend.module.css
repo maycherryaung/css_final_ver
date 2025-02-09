@@ -1,0 +1,30 @@
+.legendContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.legendItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.colorBox {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.legendContainer span {
+    font-size: 14px;
+    font-weight: 500;
+}
